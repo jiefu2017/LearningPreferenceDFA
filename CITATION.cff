@@ -7,9 +7,7 @@ authors:
 - family-names: "Fu"
   given-names: "Jie"
   orcid: "https://orcid.org/0000-0002-4470-2827"
-title: " Automata Learning  of Preferences  over Temporal Logic Formulas from Pairwise Comparisons"
+title: "Automata Learning  of Preferences  over Temporal Logic Formulas from Pairwise Comparisons"
 version: 2.0.4
-journal: `arXiv`
-doi:
+journal: "Automatica" 
 year: 2024
-url: " "
