@@ -8,6 +8,6 @@ authors:
   given-names: "Jie"
   orcid: "https://orcid.org/0000-0002-4470-2827"
 title: "Automata Learning  of Preferences  over Temporal Logic Formulas from Pairwise Comparisons"
-version: 2.0.4
-journal: "Automatica" 
+preferred-citation: article
+journal: "Automatica"
 year: 2024
