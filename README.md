@@ -74,7 +74,12 @@ TODO: Jie Fu, University of Florida
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## References
-1
+[1]. H. Rahmani and J. Fu, “Automata Learning of Preference over Temporal Logic Formulas from Pairwise Comparisons”.
+
+[2] H. Rahmani, A. N. Kulkarni, and J. Fu, “Probabilistic Planning with Partially Ordered Preferences over Temporal Goals,” in 2023 IEEE International Conference on Robotics and Automation, London, United Kingdom: IEEE, May 2023, pp. 5702–5708.
+
+[3] H. Rahmani, A. N. Kulkarni, and J. Fu, “Preference-Based Planning in Stochastic Environments: From Partially-Ordered Temporal Goals to Most Preferred Policies,” Submitted to Automatica, 2024.
+
 
 
 <!-- CONTACT -->
