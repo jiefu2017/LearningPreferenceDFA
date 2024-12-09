@@ -1,4 +1,5 @@
 import random
+from Learning import UGraph, Graph, PreferenceDFA, PreferenceSample, RPNIMooreBased
 
 import jsonpickle
 
@@ -89,7 +90,7 @@ class PreferenceSample():
         for (w, u, b) in self.sample:
             if b == 0 and w != u:
                 edges.append((w, u))
-        ugraph = UGraph(self.words, edges)
+        ugraph = UGraph.UGraph(self.words, edges)
         ugraph.compute_SCCs()
 
         partition = []
@@ -100,7 +101,7 @@ class PreferenceSample():
             partition.append(B)
         #return partition
 
-        graph = Graph()
+        graph = Graph.Graph()
         print(f"partition: {partition}")
         graph.partition = partition
         graph.word_block = dict()

@@ -1,12 +1,12 @@
 
-from Learning.PreferenceSample import PreferenceSample
+from Learning import PreferenceSample
 
 import time
 
 import graphviz
 
 class RPNIMooreBased():
-    def __init__(self, preferenceSample, generator_preferenceDFA):
+    def __init__(self, preferenceSample, generator_preferenceDFA = None):
         self.preferenceSample = preferenceSample
         self.generator_preferenceDFA = generator_preferenceDFA
 

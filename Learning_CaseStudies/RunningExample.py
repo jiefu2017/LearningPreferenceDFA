@@ -8,12 +8,12 @@ import Utility.AutomataUtility as AU
 
 class RunningExample():
     def __init__(self):
-        self.type = "BeeRobot"
+        self.type = "BeeRobot" # use different groundtruth DFA for generating samples. If only data available, use skip the step
         self.prefDFA = self.make_PrefDFA()
         self.prefDFA.compute_shortest_prefixes()
         self.prefDFA.compute_nuclues()
 
-        self.prefSample = self.make_sample()
+        self.prefSample = self.make_sample() # if no groundtruth DFA available, replace this line with a given sample of pairwise comparisons
 
         self.prefSample.compute_closure_using_graph()
 
@@ -26,6 +26,9 @@ class RunningExample():
         self.rpniMooreBased.learn_preferenceDFA_By_Eq_graph_parition()
 
     def make_PrefDFA(self):
+        """
+        Construct the preference DFA for the running example. this is the ground truth DFA.
+        """
         a = "a"
         b = "b"
         input_symbols = set()

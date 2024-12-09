@@ -7,29 +7,39 @@ import Utility.MathUtility as MU
 import Utility.AutomataUtility as AU
 
 import Utility.AlphabetUtility as ALU
-
+import copy
 import jsonpickle
-
+from Learning.Graph import Graph
 # import simplejson as json
 import Utility.ioutils as ioutils
 
 import ast
 
 
-class PreferenceDFA(DFA):
+class PreferenceDFA:
 
     epsilon = ""
+
+    def __new__(DFA, *args, **kwargs):
+
+        instance = super().__new__(DFA)
+        return instance
+
+
     def __init__(self, states, input_symbols, transitions, initial_state, prefGraph):
-
-        super().__init__(states=states, input_symbols=input_symbols, transitions=transitions,
-                         initial_state=initial_state, final_states=set([]))
-
+        self.states = states
+        self.input_symbols = input_symbols
+        self.transitions= transitions
+        self.initial_state = initial_state
+        self.final_states = set()
+        self.prefGraph = prefGraph
         '''
         The preference graph. It is an object of type Graph
         Each vertex v of this graph is a subset of states of the DFA
         An ege e=(v1, v2) means that v1 is preferred over v2.
         '''
-        self.prefGraph = prefGraph
+
+
 
 
         '''
