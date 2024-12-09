@@ -1,5 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
+preferred-citation:
+  type: article
 authors:
 - family-names: "Rahmani"
   given-names: "Hazhar"
@@ -8,6 +10,5 @@ authors:
   given-names: "Jie"
   orcid: "https://orcid.org/0000-0002-4470-2827"
 title: "Automata Learning  of Preferences  over Temporal Logic Formulas from Pairwise Comparisons"
-preferred-citation: article
 journal: "Automatica"
 year: 2024
