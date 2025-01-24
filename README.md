@@ -61,7 +61,7 @@ Don't forget to give the project a star! Thanks again!
 
 
   Jie Fu, University of Florida
-<a href="https://github.com/jiefu2017 
+<a href="https://github.com/jiefu2017"> 
 </a>
 
 
