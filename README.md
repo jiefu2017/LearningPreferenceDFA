@@ -55,15 +55,13 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Top contributors:
-TODO: Hazhar add your information
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+   Hazhar Rahmani,  Missouri State University. 
+<a href="https://hazharrahmani.github.io">
 </a>
 
 
-TODO: Jie Fu, University of Florida
-<a href="https://github.com/jiefu2017">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+  Jie Fu, University of Florida
+<a href="https://github.com/jiefu2017 
 </a>
 
 
